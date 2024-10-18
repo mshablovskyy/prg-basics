@@ -1,11 +1,6 @@
-# 3x3 Tic-Tac-Toe board
-tic_tac_toe_board = [
-    ['X', 'O', 'X'],
-    [' ', 'X', 'O'],
-    ['O', ' ', 'X']
-]
-
-for row in tic_tac_toe_board:
-    for item in row:
-        print(item, end=" ")
-    print()
+class Square:
+    def __init__(self, a):
+        self.a = a
+    def area(self):
+        return self.a * self.a
+    
